@@ -21,8 +21,8 @@ int main() {
 		espera(1);		//Espera un milisegundo para dar un efecto de animacion
 	}
 	
-	for (int r = rand()%255 , g = rand()%255, b = rand()%255 ; ; r++, g++, b++) {
-		if (r == 255 || g == 255 || b == 255) {
+	for (int r = rand()%255 , g = rand()%255, b = rand()%255 ; ; r++, g++, b++) {	//Creamos un For infinito que tome un valor aleatorio hasta 255
+		if (r == 255 || g == 255 || b == 255) {	//Si algun valor generado llega a 255 generamos un nuevo valor aleatorio
 			r = rand()%255;
 			g = rand()%255;
 			b = rand()%255;
