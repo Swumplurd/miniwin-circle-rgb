@@ -1,5 +1,5 @@
-#include "miniwin.h"
-#include<stdlib.h>
+#include "miniwin.h"	//Incluimos la libreria miniwin
+#include <stdlib.h>		//Incluimos la libreria estandar para poder hacer uso de la funcion rand() usada mas adelante
 using namespace miniwin;
 
 int main() {
