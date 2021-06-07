@@ -1,5 +1,7 @@
 # miniwin-circle-rgb
 
+<img align="right" src="https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg" height="150px">
+
 Ejemplo para crear graficos en C++ usando miniwin.
 
 ## Uso
